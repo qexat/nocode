@@ -1,0 +1,45 @@
+[[package]]
+name = "classify-imports"
+version = "4.2.0"
+description = "Utilities for refactoring imports in python-like syntax."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[[package]]
+name = "reorder-python-imports"
+version = "3.9.0"
+description = "Tool for reordering python imports"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+classify-imports = ">=4.1"
+
+[[package]]
+name = "result"
+version = "0.8.0"
+description = "A Rust-like result type for Python"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.11"
+content-hash = "3a77383db8f096c091c5c674662388de1b3054cca127ccca8a62ef5743b78c6c"
+
+[metadata.files]
+classify-imports = [
+    {file = "classify_imports-4.2.0-py2.py3-none-any.whl", hash = "sha256:dbbc264b70a470ed8c6c95976a11dfb8b7f63df44ed1af87328bbed2663f5161"},
+    {file = "classify_imports-4.2.0.tar.gz", hash = "sha256:7abfb7ea92149b29d046bd34573d247ba6e68cc28100c801eba4af17964fc40e"},
+]
+reorder-python-imports = [
+    {file = "reorder_python_imports-3.9.0-py2.py3-none-any.whl", hash = "sha256:3f9c16e8781f54c944756d0d1eb34a8c863554f7a4eb3693f574fe19b1a29b56"},
+    {file = "reorder_python_imports-3.9.0.tar.gz", hash = "sha256:49292ed537829a6bece9fb3746fc1bbe98f52643be5de01a4e13680268a5b0ec"},
+]
+result = [
+    {file = "result-0.8.0-py3-none-any.whl", hash = "sha256:d6a6258f32c057a4e0478999c6ce43dcadaf8ea435f58ac601ae2768f93ef243"},
+    {file = "result-0.8.0.tar.gz", hash = "sha256:c48c909e92181a075ba358228a3fe161e26d205dad416ad81f27f23515a5626d"},
+]

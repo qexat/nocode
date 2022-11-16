@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "nocode"
+version = "0.1.0"
+description = "The best way to write secure and reliable applications. Write nothing; deploy nowhere."
+authors = ["Qexat <43090614+qexat@users.noreply.github.com>"]
+license = "MIT"
+readme = "docs/README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+result = "^0.8.0"
+reorder-python-imports = "^3.9.0"
+
+
+[tool.poetry.scripts]
+nocode = "nocode.cli:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
